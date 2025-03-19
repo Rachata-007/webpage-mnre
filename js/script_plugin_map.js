@@ -109,7 +109,7 @@ $(document).ready(function ($) {
 
   // ขอนแก่น
   var kkpv = new L.GeoJSON.AJAX("json/kk_province.geojson", {
-    color: "#FFCC00",  // ตั้งสีของฟีเจอร์
+    color: "#FF2929",  // ตั้งสีของฟีเจอร์
     onEachFeature: function (feature, layer) {
 
       // สร้าง Label สำหรับแสดงชื่ออำเภอ
